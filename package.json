@@ -1,7 +1,7 @@
 {
     "name": "react-snippets",
     "displayName": "ReactJS Snippets",
-    "version": "0.1.0",
+    "version": "0.1.01",
     "publisher": "hksoni9312",
     "description": "This extension contains the predefined snippets for React TypeScript development",
     "author": {
@@ -22,10 +22,12 @@
             }
         ]
     },
-    "activationEvents": [
-        "onLanguage:typescriptreact"
-    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harish9312/react-snippets.git"
+    },
     "engines": {
         "vscode": "^1.0.0"
-    }
+    },
+    "icon": "icon.png"
 }

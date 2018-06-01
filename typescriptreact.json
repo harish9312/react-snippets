@@ -1,0 +1,63 @@
+{
+	"Print to console": {
+		"prefix": "cl",
+		"body": [
+			"console.log('>> $1', $1);"
+		],
+		"description": "Log output to console"
+	},
+	"Create class and interface": {
+		"prefix": "class",
+		"body": [
+			"import * as React from 'react';",
+			"",
+			"export interface I$1Props {",
+			"}",
+			"",
+			"export class $1Impl extends React.PureComponent<I$1Props, {}> {",
+			"constructor(props:I$1Props) {",
+			"super(props);",
+			"}",
+			"}",
+			"export function mapStateToProps() {",
+			"return{",
+			"}",
+			"};",
+			"export const $1 = connect<{},{},I$1Props>(mapStateToProps)($1Impl)"
+		],
+		"description": "Creates class and interface"
+	},
+	"Function mapStateToProps": {
+		"prefix": "mapS",
+		"body": [
+			"export function mapStateToProps() {",
+			"return{",
+			"}",
+			"};"
+		],
+		"description": "Creates mapStateToProps Function"
+	},
+	"export class with connect": {
+		"prefix": "exportclass",
+		"body": [
+			"export const $1 = connect<{},{},I$1Props>(mapStateToProps)($1Impl)"
+		],
+		"description": "exports class with connect"
+	},
+	"react": {
+		"prefix": "react",
+		"body": "import * as React from 'react';"
+	},
+	"importConnect": {
+		"prefix": "impconnect",
+		"body": "import { connect } from 'react-redux';"
+	},
+	"constAction": {
+		"prefix": "create action type",
+		"body": "export const $1 = '$1'"
+	},
+	"importBoots": {
+		"prefix": "importBoot",
+		"body": "import { FormControl, FormGroup, ControlLabel, Button } from 'react-bootstrap;"
+	}
+}

@@ -1,0 +1,31 @@
+{
+    "name": "react-snippets",
+    "displayName": "ReactJS Snippets",
+    "version": "0.1.0",
+    "publisher": "hksoni9312",
+    "description": "This extension contains the predefined snippets for React TypeScript development",
+    "author": {
+        "name": "Harish Soni"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "galleryBanner": {
+        "color": "#C80000",
+        "theme": "dark"
+    },
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescriptreact",
+                "path": "typescriptreact.json"
+            }
+        ]
+    },
+    "activationEvents": [
+        "onLanguage:typescriptreact"
+    ],
+    "engines": {
+        "vscode": "^1.0.0"
+    }
+}

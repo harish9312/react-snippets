@@ -1,7 +1,7 @@
 {
     "name": "react-snippets",
     "displayName": "ReactJS Snippets",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "hksoni9312",
     "description": "This extension contains the predefined snippets for React TypeScript development",
     "author": {
